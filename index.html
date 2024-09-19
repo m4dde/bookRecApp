@@ -13,11 +13,30 @@
         <a href="">Library</a>
     </nav>
 
-    <div class="layout">
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </div>
+    <!--Seksjon for input form-->
+    <main>
+        <section id="form-section">
+            <form id="preference">
+                <label for="genre">Select genre:</label>
+                <select name="genre" id="genre">
+                    <option value="fanatsy">Fantasy</option>
+                    <option value="romance">Romance</option>
+                    <option value="science-fiction">Science fiction</option>
+                    <option value="fiction">Fiction</option>
+                </select>
+                <button type="submit">Get recommendations</button>
+            </form>
+        </section>
+
+        <section id="rec-section">
+            <h2>Recommendations</h2>
+            <ul id="recommendations">
+                <!--Bok anbefaling vil komme her ved å bruke JavaScript-->
+            </ul>
+        </section>
+    </main>
+
+
 
     <script src="script.js"></script>
 </body>
